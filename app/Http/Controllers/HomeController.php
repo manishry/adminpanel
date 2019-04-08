@@ -62,4 +62,21 @@ class HomeController extends Controller
     public function authentication() {
         return view('register');
     }
+
+    public function forms_wizard() {
+        return view('form2');
+    }
+
+    public function gallery() {
+        return view('gallery');
+    }
+    public function calendar() {
+        return view('calendar');
+    }
+    public function chat() {
+        return view('chat');
+    }
+    public function logins() {
+        return view('logins');
+    }
 }

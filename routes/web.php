@@ -29,3 +29,8 @@ Route::get('/icons', 'HomeController@icons')->name('icons');
 Route::get('/addons', 'HomeController@addons')->name('addons');
 Route::get('/elements', 'HomeController@elements')->name('elements');
 Route::get('/authentication', 'HomeController@authentication')->name('authentication');
+Route::get('/form/wizard', 'HomeController@forms_wizard')->name('forms_wizard');
+Route::get('/gallery', 'HomeController@gallery')->name('gallery');
+Route::get('/calendar', 'HomeController@calendar')->name('calendar');
+Route::get('/chat', 'HomeController@chat')->name('chat');
+Route::get('/logins', 'HomeController@logins')->name('logins');
